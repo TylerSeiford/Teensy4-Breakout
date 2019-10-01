@@ -123,26 +123,6 @@ Text Label 2200 5050 2    50   ~ 0
 12-5.0
 Text Label 2200 5150 2    50   ~ 0
 13-5.0
-Text Label 9550 5000 3    50   ~ 0
-14-5.0
-Text Label 9650 5000 3    50   ~ 0
-15-5.0
-Text Label 8850 4600 0    50   ~ 0
-16-5.0
-Text Label 8850 4500 0    50   ~ 0
-17-5.0
-Text Label 8850 4400 0    50   ~ 0
-18-5.0
-Text Label 8850 4300 0    50   ~ 0
-19-5.0
-Text Label 8850 4200 0    50   ~ 0
-20-5.0
-Text Label 8850 4100 0    50   ~ 0
-21-5.0
-Text Label 8850 4000 0    50   ~ 0
-22-5.0
-Text Label 8850 3800 0    50   ~ 0
-23-5.0
 $Comp
 L Connector:Conn_01x04_Female J3
 U 1 1 5D87FA21
@@ -160,16 +140,6 @@ Wire Wire Line
 	9350 4100 9350 3550
 Wire Wire Line
 	9450 4000 9450 3550
-Wire Wire Line
-	9550 3800 9550 3550
-Wire Wire Line
-	8750 4200 9250 4200
-Wire Wire Line
-	8750 4100 9350 4100
-Wire Wire Line
-	8750 4000 9450 4000
-Wire Wire Line
-	8750 3800 9550 3800
 Text Label 2200 3350 2    50   ~ 0
 0-5.0
 Wire Wire Line
@@ -207,17 +177,6 @@ Wire Wire Line
 Text Label 2300 3050 1    50   ~ 0
 GND
 $Comp
-L lib:TXB0108PWR U4
-U 1 1 5DDC07C7
-P 8350 3700
-F 0 "U4" H 8350 3865 50  0000 C CNN
-F 1 "TXB0108PWR" H 8350 3774 50  0000 C CNN
-F 2 "footprints:TSSOP-20_4.4x6.5mm_P0.65mm" H 8350 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/txb0108.pdf" H 8350 3700 50  0001 C CNN
-	1    8350 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L lib:TXB0108PWR U3
 U 1 1 5DDC1FAF
 P 3300 5550
@@ -240,46 +199,9 @@ F 3 "~" H 9950 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 3900 9650 3900
-Wire Wire Line
 	6550 3600 6850 3600
 Wire Wire Line
 	6550 3700 6850 3700
-Text Label 9650 3900 0    50   ~ 0
-5V
-Wire Wire Line
-	8750 4700 8850 4700
-Text Label 8850 4900 3    50   ~ 0
-GND
-Wire Wire Line
-	6550 4600 7950 4600
-Wire Wire Line
-	7950 4500 6550 4500
-Wire Wire Line
-	6550 4400 7950 4400
-Wire Wire Line
-	6550 4300 7950 4300
-Wire Wire Line
-	6550 4200 7950 4200
-Wire Wire Line
-	6550 4100 7950 4100
-Wire Wire Line
-	6550 4000 7950 4000
-Wire Wire Line
-	6550 3900 6950 3900
-Wire Wire Line
-	6950 3900 6950 3800
-Wire Wire Line
-	6950 3800 7950 3800
-Wire Wire Line
-	7950 3900 7850 3900
-Wire Wire Line
-	7850 3900 7850 3600
-Wire Wire Line
-	7950 4700 7850 4700
-Wire Wire Line
-	7850 4700 7850 3900
-Connection ~ 7850 3900
 Wire Wire Line
 	3700 3250 3800 3250
 Wire Wire Line
@@ -300,32 +222,20 @@ Wire Wire Line
 Connection ~ 3800 5350
 Text Label 2800 5650 3    50   ~ 0
 5V
-Text Label 7850 3600 0    50   ~ 0
-3.3V
 Text Label 3800 5650 3    50   ~ 0
 3.3V
-Wire Wire Line
-	8750 4600 9750 4600
 Wire Wire Line
 	9450 4500 9450 4700
 Wire Wire Line
 	9450 4700 9750 4700
 Wire Wire Line
-	8750 4500 9450 4500
-Wire Wire Line
 	9750 4800 9350 4800
 Wire Wire Line
 	9350 4800 9350 4400
 Wire Wire Line
-	8750 4400 9350 4400
-Wire Wire Line
 	9250 4300 9250 4900
 Wire Wire Line
 	9250 4900 9750 4900
-Wire Wire Line
-	8750 4300 9250 4300
-Wire Wire Line
-	8850 4700 8850 4900
 Wire Wire Line
 	9750 4400 9550 4400
 Wire Wire Line
@@ -443,10 +353,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 5150 2900 5150
 Wire Wire Line
-	2900 5450 2700 5450
-Wire Wire Line
-	2900 5250 2600 5250
-Wire Wire Line
 	2300 5250 2300 4550
 Wire Wire Line
 	2300 4550 2900 4550
@@ -465,47 +371,11 @@ Wire Wire Line
 Wire Wire Line
 	5650 5850 6950 5850
 Wire Wire Line
-	7050 4800 7050 5950
-Wire Wire Line
-	7050 5950 5550 5950
-Wire Wire Line
-	5550 5950 5550 5250
-Wire Wire Line
-	5550 5250 3700 5250
-Wire Wire Line
-	6550 4800 7050 4800
-Wire Wire Line
-	3700 5450 5450 5450
-Wire Wire Line
-	5450 5450 5450 6050
-Wire Wire Line
-	5450 6050 7150 6050
-Wire Wire Line
-	7150 6050 7150 4700
-Wire Wire Line
-	6550 4700 7150 4700
-Wire Wire Line
 	2800 4050 2800 5350
 Connection ~ 2800 5350
 Wire Wire Line
 	3800 4050 3800 4550
 Connection ~ 3800 4550
-Wire Wire Line
-	2700 6150 9650 6150
-Wire Wire Line
-	9650 4500 9650 6150
-Wire Wire Line
-	2700 5450 2700 6150
-Wire Wire Line
-	9550 6250 2600 6250
-Wire Wire Line
-	9550 4400 9550 6250
-Wire Wire Line
-	2600 5250 2600 6250
-Text Label 2600 5650 3    50   ~ 0
-14-5.0
-Text Label 2700 5650 3    50   ~ 0
-15-5.0
 $Comp
 L Connector:Conn_01x08_Female J5
 U 1 1 5E038372
@@ -598,70 +468,6 @@ Wire Notes Line
 Text Notes 7650 800  0    50   ~ 0
 5V regulator
 $Comp
-L Device:C C4
-U 1 1 5D8D962A
-P 6750 1150
-F 0 "C4" H 6865 1196 50  0000 L CNN
-F 1 "10uF" H 6865 1105 50  0000 L CNN
-F 2 "footprints:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6788 1000 50  0001 C CNN
-F 3 "~" H 6750 1150 50  0001 C CNN
-	1    6750 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5D8D9630
-P 6750 1450
-F 0 "C3" H 6865 1496 50  0000 L CNN
-F 1 "10uF" H 6865 1405 50  0000 L CNN
-F 2 "footprints:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6788 1300 50  0001 C CNN
-F 3 "~" H 6750 1450 50  0001 C CNN
-	1    6750 1450
-	1    0    0    -1  
-$EndComp
-Text Label 7050 1600 0    50   ~ 0
-Vin
-Text Label 7050 1000 0    50   ~ 0
-3.3V
-Text Label 7050 1300 0    50   ~ 0
-GND
-Wire Wire Line
-	7050 1300 6750 1300
-Connection ~ 6750 1300
-Wire Wire Line
-	7050 1000 6750 1000
-Wire Wire Line
-	7050 1600 6750 1600
-Wire Notes Line
-	5600 800  5600 2000
-Wire Notes Line
-	5600 2000 7300 2000
-Wire Notes Line
-	7300 2000 7300 800 
-Wire Notes Line
-	5600 800  7300 800 
-Text Notes 5600 800  0    50   ~ 0
-3.3V regulator
-$Comp
-L Regulator_Switching:R-78E3.3-1.0 U5
-U 1 1 5D929344
-P 6350 1300
-F 0 "U5" V 6396 1405 50  0000 L CNN
-F 1 "R-78E3.3-1.0" V 6305 1405 50  0000 L CNN
-F 2 "footprints:Converter_DCDC_RECOM_R-78E-1.0_THT" H 6400 1050 50  0001 L CIN
-F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf" H 6350 1300 50  0001 C CNN
-	1    6350 1300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6650 1300 6750 1300
-Wire Wire Line
-	6350 1600 6750 1600
-Connection ~ 6750 1600
-Wire Wire Line
-	6750 1000 6350 1000
-Connection ~ 6750 1000
-$Comp
 L Regulator_Switching:R-78E5.0-1.0 U6
 U 1 1 5D949431
 P 8400 1300
@@ -712,4 +518,42 @@ NoConn ~ 6250 5450
 NoConn ~ 5950 5450
 NoConn ~ 6550 3800
 NoConn ~ 6050 5450
+Wire Wire Line
+	6550 4000 9450 4000
+Wire Wire Line
+	6550 4100 9350 4100
+Wire Wire Line
+	6550 4300 9250 4300
+Wire Wire Line
+	6550 4400 9350 4400
+Wire Wire Line
+	6550 4500 9450 4500
+Wire Wire Line
+	6550 4600 9750 4600
+Wire Wire Line
+	6550 4200 9250 4200
+Wire Wire Line
+	9550 3550 9550 3900
+Wire Wire Line
+	6550 3900 9550 3900
+NoConn ~ 2900 5250
+NoConn ~ 2900 5450
+NoConn ~ 3700 5250
+NoConn ~ 3700 5450
+Wire Wire Line
+	9150 4800 9150 5000
+Wire Wire Line
+	9150 5000 9550 5000
+Wire Wire Line
+	9550 5000 9550 4400
+Wire Wire Line
+	6550 4800 9150 4800
+Wire Wire Line
+	9650 4500 9650 5100
+Wire Wire Line
+	9650 5100 9050 5100
+Wire Wire Line
+	9050 5100 9050 4700
+Wire Wire Line
+	6550 4700 9050 4700
 $EndSCHEMATC
