@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NLSX3018DWR2G
+D Logic level shifter
+K level shifter
+F https://www.nxp.com/docs/en/data-sheet/NVT2008_NVT2010.pdf
+$ENDCMP
+#
+$CMP NVT2008PW,118
+D Logic level shifter
+K level shifter
+F https://www.nxp.com/docs/en/data-sheet/NVT2008_NVT2010.pdf
+$ENDCMP
+#
+$CMP Teensy4.0
+D Teensy 4.0 wo/ pads
+K Teensy
+F https://www.pjrc.com/store/teensy40.html
+$ENDCMP
+#
+#End Doc Library
