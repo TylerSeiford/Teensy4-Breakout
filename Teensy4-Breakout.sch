@@ -123,23 +123,6 @@ Text Label 2200 5050 2    50   ~ 0
 12-5.0
 Text Label 2200 5150 2    50   ~ 0
 13-5.0
-$Comp
-L Connector:Conn_01x04_Female J3
-U 1 1 5D87FA21
-P 9350 3350
-F 0 "J3" V 9400 3300 50  0000 C CNN
-F 1 "AI 6-9/DIO 20-23" V 9500 3300 50  0000 C CNN
-F 2 "footprints:PinSocket_1x04_P2.54mm_Vertical" H 9350 3350 50  0001 C CNN
-F 3 "~" H 9350 3350 50  0001 C CNN
-	1    9350 3350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9250 4200 9250 3550
-Wire Wire Line
-	9350 4100 9350 3550
-Wire Wire Line
-	9450 4000 9450 3550
 Text Label 2200 3350 2    50   ~ 0
 0-5.0
 Wire Wire Line
@@ -190,12 +173,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x06_Female J4
 U 1 1 5D836C1D
-P 9950 4600
-F 0 "J4" V 10000 4550 50  0000 C CNN
-F 1 "AI 0-5/DIO 14-19" V 10100 4550 50  0000 C CNN
-F 2 "footprints:J4" H 9950 4600 50  0001 C CNN
-F 3 "~" H 9950 4600 50  0001 C CNN
-	1    9950 4600
+P 10700 4600
+F 0 "J4" V 10750 4550 50  0000 C CNN
+F 1 "AI 0-5/DIO 14-19" V 10850 4550 50  0000 C CNN
+F 2 "footprints:J4" H 10700 4600 50  0001 C CNN
+F 3 "~" H 10700 4600 50  0001 C CNN
+	1    10700 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -227,19 +210,19 @@ Text Label 3800 5650 3    50   ~ 0
 Wire Wire Line
 	9450 4500 9450 4700
 Wire Wire Line
-	9450 4700 9750 4700
+	9450 4700 10500 4700
 Wire Wire Line
-	9750 4800 9350 4800
+	10500 4800 9350 4800
 Wire Wire Line
 	9350 4800 9350 4400
 Wire Wire Line
 	9250 4300 9250 4900
 Wire Wire Line
-	9250 4900 9750 4900
+	9250 4900 10500 4900
 Wire Wire Line
-	9750 4400 9550 4400
+	10500 4400 9550 4400
 Wire Wire Line
-	9650 4500 9750 4500
+	9650 4500 10500 4500
 Wire Wire Line
 	6150 5450 6150 5750
 Wire Wire Line
@@ -516,12 +499,6 @@ Wire Wire Line
 NoConn ~ 6350 5450
 NoConn ~ 6250 5450
 NoConn ~ 5950 5450
-NoConn ~ 6550 3800
-NoConn ~ 6050 5450
-Wire Wire Line
-	6550 4000 9450 4000
-Wire Wire Line
-	6550 4100 9350 4100
 Wire Wire Line
 	6550 4300 9250 4300
 Wire Wire Line
@@ -529,13 +506,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 4500 9450 4500
 Wire Wire Line
-	6550 4600 9750 4600
-Wire Wire Line
-	6550 4200 9250 4200
-Wire Wire Line
-	9550 3550 9550 3900
-Wire Wire Line
-	6550 3900 9550 3900
+	6550 4600 10500 4600
 NoConn ~ 2900 5250
 NoConn ~ 2900 5450
 NoConn ~ 3700 5250
@@ -556,4 +527,109 @@ Wire Wire Line
 	9050 5100 9050 4700
 Wire Wire Line
 	6550 4700 9050 4700
+Text Label 6050 5750 1    50   ~ 0
+3.3V
+Text Label 6850 3800 2    50   ~ 0
+3.3V
+Wire Wire Line
+	6850 3800 6550 3800
+Wire Wire Line
+	6050 5750 6050 5450
+Text Label 2200 5250 2    50   ~ 0
+GND
+Text Label 10400 3600 2    50   ~ 0
+20-3.3
+Text Label 10400 3700 2    50   ~ 0
+21-3.3
+Text Label 10400 3800 2    50   ~ 0
+22-3.3
+Text Label 10400 3900 2    50   ~ 0
+23-3.3
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 5D87FA21
+P 10700 3700
+F 0 "J3" V 10750 3650 50  0000 C CNN
+F 1 "AI 6-9/DIO 20-23" V 10850 3650 50  0000 C CNN
+F 2 "footprints:J3" H 10700 3700 50  0001 C CNN
+F 3 "~" H 10700 3700 50  0001 C CNN
+	1    10700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3900 10500 3900
+Wire Wire Line
+	10500 3800 6950 3800
+Wire Wire Line
+	6950 3800 6950 4000
+Wire Wire Line
+	6950 4000 6550 4000
+Wire Wire Line
+	6550 4100 7050 4100
+Wire Wire Line
+	7050 4100 7050 3700
+Wire Wire Line
+	7050 3700 10500 3700
+Wire Wire Line
+	10500 3600 7150 3600
+Wire Wire Line
+	7150 3600 7150 4200
+Wire Wire Line
+	7150 4200 6550 4200
+Text Label 10400 4900 2    50   ~ 0
+19-3.3
+Text Label 10400 4800 2    50   ~ 0
+18-3.3
+Text Label 10400 4700 2    50   ~ 0
+17-3.3
+Text Label 10400 4600 2    50   ~ 0
+16-3.3
+Text Label 10400 4500 2    50   ~ 0
+15-3.3
+Text Label 10400 4400 2    50   ~ 0
+14-3.3
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DAD4145
+P 2000 1500
+F 0 "H4" H 2100 1546 50  0000 L CNN
+F 1 "MountingHole" H 2100 1455 50  0000 L CNN
+F 2 "footprints:Hole" H 2000 1500 50  0001 C CNN
+F 3 "~" H 2000 1500 50  0001 C CNN
+	1    2000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DAD4848
+P 2000 1000
+F 0 "H2" H 2100 1046 50  0000 L CNN
+F 1 "MountingHole" H 2100 955 50  0000 L CNN
+F 2 "footprints:Hole" H 2000 1000 50  0001 C CNN
+F 3 "~" H 2000 1000 50  0001 C CNN
+	1    2000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DAD53A9
+P 1000 1000
+F 0 "H1" H 1100 1046 50  0000 L CNN
+F 1 "MountingHole" H 1100 955 50  0000 L CNN
+F 2 "footprints:Hole" H 1000 1000 50  0001 C CNN
+F 3 "~" H 1000 1000 50  0001 C CNN
+	1    1000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DAD55AA
+P 1000 1500
+F 0 "H3" H 1100 1546 50  0000 L CNN
+F 1 "MountingHole" H 1100 1455 50  0000 L CNN
+F 2 "footprints:Hole" H 1000 1500 50  0001 C CNN
+F 3 "~" H 1000 1500 50  0001 C CNN
+	1    1000 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
