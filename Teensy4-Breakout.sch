@@ -451,10 +451,10 @@ Wire Notes Line
 Text Notes 7650 800  0    50   ~ 0
 5V regulator
 $Comp
-L Regulator_Switching:R-78E5.0-1.0 U6
+L Regulator_Switching:R-78E5.0-1.0 U4
 U 1 1 5D949431
 P 8400 1300
-F 0 "U6" V 8446 1405 50  0000 L CNN
+F 0 "U4" V 8446 1405 50  0000 L CNN
 F 1 "R-78E5.0-1.0" V 8355 1405 50  0000 L CNN
 F 2 "footprints:Converter_DCDC_RECOM_R-78E-1.0_THT" H 8450 1050 50  0001 L CIN
 F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf" H 8400 1300 50  0001 C CNN
