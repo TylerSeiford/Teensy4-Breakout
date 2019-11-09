@@ -42,4 +42,4 @@ Release/*
 **/fp-lib-table
 **/sym-lib-table
 Private/*
-GERBERS/*
+**/GERBERS/**
